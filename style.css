@@ -46,26 +46,27 @@ section {
     font-family: var(--fonte-padrão);
 }
 section p {
+    padding-bottom: 2em;
     font-weight: 300;
-    /* font-size: 2.5em; */
     font-size: 3.5vw;
-    line-height: 7vw;
+    line-height: 2em;
 }
 
 .imagem-de-fundo {
-    margin: 0;
     padding: 10vh 0vw 10vh 30px;
     background-color: rgb(0, 0, 0);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.514);
 }
 
 .imagem-de-fundo > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.382);
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 
 #imagem-de-fundo__flor {
